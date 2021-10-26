@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>NEW - The Present Writer</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="shortcut icon" href="https://www.straitstimes.com/sites/all/themes/custom/bootdemo/images/icons/st175/apple-touch-icon-60x60.png" type="image/x-icon">
+    <link
+      rel="stylesheet"
+      href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css"
+    />
+  </head>
+
+  <body>
+    <main class="container container-page">
+      <header>
+        <div class="container main-menu">
+            <button class="lnr lnr-menu" id="mobile-nav-toggle"></button>
+            <button
+                id="btn-find002"
+                class="btn lnr lnr-magnifier"
+                style="font-size: 18px"
+              ></button>
+          <div class="row d-flex">
+            <ul>
+              <li>
+                <a href="#">News</a>
+              </li>
+              <li>
+                <a href="#">LifeStyle</a>
+              </li>
+              <li>
+                <a href="#">More</a>
+              </li>
+            </ul>
+            <a href="#">
+              <img
+                src="https://thepresentwriter.com/wp-content/uploads/2016/07/cropped-The-Present-Writer-jpeg-3.jpg"
+                alt="img-logo"
+              />
+            </a>
+            <ul>
+              <li>
+                <a href="#">Sports</a>
+              </li>
+              <li>
+                <a href="#">Technology</a>
+              </li>
+              <li id="btn-find" class="lnr lnr-magnifier"></li>
+            </ul>
+          </div>
+
+          <nav id="mobile-nav">
+            <ul>
+                <li>
+                  <a href="#">News</a>
+                </li>
+                <li>
+                  <a href="#">LifeStyle</a>
+                </li>
+                <li>
+                  <a href="#">More</a>
+                </li>
+                <li>
+                    <a href="#">Sports</a>
+                  </li>
+                  <li>
+                    <a href="#">Technology</a>
+                  </li>
+              </ul>
+          </nav>
+          <div id="mobile-body-overly"></div>
+        </div>
+      </header>
+
+      <div id="block" class="block-find">
+        <div class="find-page">
+          <div class="find-content">
+            <span>
+              <input
+                type="text"
+                name="search"
+                id="search"
+                placeholder="Nhập từ khóa..."
+              />
+              <button
+                id="btn-find01"
+                class="btn lnr lnr-magnifier"
+                style="font-size: 20px"
+              ></button>
+            </span>
+            <button class="btn btn-primary" id="btn-primary">ĐÓNG</button>
+          </div>
+          <div class="find-key">
+            <h4>Các từ khoá nổi bật:</h4>
+            <p>Sport</p>
+            <p>Messi</p>
+            <p>Cr7</p>
+            <p>Iphone 13 Pro-Max</p>
+          </div>
+        </div>
+      </div>
+
+      <section>
+        <h2 class="newfeed">
+          <span>News Feed</span>
+        </h2>
+
+        <div id="demo" class="container d-flex container-wrap"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>
+          Copyright ©&nbsp;2021 The Present Writer ·
+          <a rel="nofollow" href="https://thepresentwriter.com/mycpanel/"
+            >Log in</a
+          >
+        </p>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="src/index.js"></script>
+  </body>
+</html>
